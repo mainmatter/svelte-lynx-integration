@@ -7,6 +7,11 @@ This is a POC for an integration between [Lynx](https://lynxjs.org/) and [Svelte
 >
 > Long story short, don't expect this to work for whatever code you throw at it!
 
+> [!NOTE]
+> Both this integration and the renderer api in svelte was written by [Mainmatter](https://mainmatter.com) and contributors.
+> We offer consulting, training, and team augmentation for Svelte & SvelteKit – check out our
+> [website](https://mainmatter.com/svelte-consulting/) to learn more!
+
 ### How to run the project?
 
 If you just want to take a look at the app on your phone you can
@@ -24,3 +29,8 @@ If you want to play around with the actual code and build it locally you can
 4. Run `pnpm serve` and scan the generated QR code with Lynx explorer
 
 Unfortunately there's some problem with the `rspack` dev server so you can't run the dev server and you'd have to rerun the `serve` command
+
+## License
+
+This repo is developed by © Mainmatter GmbH and contributors. It is released under
+the [MIT License](LICENSE.md).
